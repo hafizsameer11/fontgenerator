@@ -2,3 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
+.header{
+    margin-top: 20px;
+}
+.menu-list{
+
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    flex-basis: 40%;
+}
+.cta{
+    background-color: black;
+    color: white ;
+    padding: 10px 30px;
+    transition: .2s all ease-in-out;
+    border: 1px solid black;
+
+}
+.cta:hover{
+    background-color: transparent;
+    color:  black ;
+    border: 1px solid black;
+}
+.add-space-first{
+    border: 1px solid black; 
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    height: 30vh;
+}
+.text-area-font{
+    border: 1px solid black;
+    width: 100% !important;
+    margin-top: 20px;
+}
+.font-input-button{
+    background-color: black ;
+    color: white;
+    padding: 10px 10px ;
+}
+.font-input-div{
+
+    border: 1px solid black;
+}
+.font-input{
+    height: 44px;
+    width: 100%;
+    outline: none;
+}
+.font-input:focus{
+    outline: none;
+    border: none;
+
+}
+.font-input:hover{
+    outline: none;
+    border: none;
+}
+.home-section-second-inro
+ .second{
+    flex-basis: 60%;
+}
+.home-section-second-inro
+ .first{
+    flex-basis: 40%;
+}
